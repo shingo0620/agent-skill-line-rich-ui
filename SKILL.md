@@ -1,6 +1,13 @@
 ---
 name: line-rich-messages
 description: Comprehensive guide for LINE Rich UI features (Flex Messages, buttons, quick replies, and markdown auto-conversion). Use this skill to provide a professional, low-friction experience for LINE users, prioritizing interactive elements over manual text input.
+metadata:
+  {
+    "openclaw":
+      {
+        "requires": { "bins": ["curl", "gog"], "plugins": ["line"] },
+      },
+  }
 ---
 
 # LINE Rich Messages
