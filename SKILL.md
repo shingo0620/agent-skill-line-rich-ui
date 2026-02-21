@@ -24,6 +24,8 @@ Detailed guides for each feature:
 - **Guided Choices**: If you ask a question with 2-4 fixed answers, always include `[[quick_replies: ...]]`.
 - **Structured Data**: Use Markdown tables for any multi-point information (e.g., flight times, order items).
 - **Destructive Actions**: Use `[[confirm: ...]]` for actions like "Delete Memory" or "Cancel Project".
+- **UX Limitation (Crucial)**: Text within Flex Messages (including Markdown tables and auto-converted replies) **cannot be selected or copied** by the user. 
+  - **Rule**: If the data is meant to be copied (e.g., SSH keys, IDs, URLs), **always send it as plain text** without Markdown formatting or directives that trigger Flex conversion.
 
 ## 🏆 終極解決方案：手工 Raw Flex (The Golden Path)
 

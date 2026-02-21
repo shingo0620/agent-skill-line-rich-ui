@@ -12,6 +12,7 @@ Use this guide to choose the best UI element for your specific scenario on LINE.
 | **Sharing a physical location** | **Location Card** | Native map integration. |
 | **Event details / Invitations** | **Event Card** | Rich layout with date, time, and location support. |
 | **Showing code or logs** | **Code Block** | Converts to a styled card for better mobile readability. |
+| **Sharing Copy-Paste Data** (IDs, Keys) | **Plain Text** | **Crucial**: Flex Message text cannot be selected. Use plain text for copy-paste items. |
 
 ## Friction Levels (Lower is better)
 1. **Quick Reply** (1 tap) - Immediate flow continuation.
