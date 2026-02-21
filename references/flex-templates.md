@@ -146,3 +146,25 @@ Since OpenClaw directives (`[[tag: ...]]`) can sometimes fail depending on the e
   }
 }
 ```
+
+## 5. Interaction: Quick Replies (Bubbles)
+**Scenario**: Providing 2-13 floating bubbles at the bottom for quick choices without cluttering chat history.
+
+```json
+{
+  "type": "text",
+  "text": "請選擇妳的下一步：",
+  "quickReply": {
+    "items": [
+      {
+        "type": "action",
+        "action": { "type": "message", "label": "選項一", "text": "執行一" }
+      },
+      {
+        "type": "action",
+        "action": { "type": "message", "label": "選項二", "text": "執行二" }
+      }
+    ]
+  }
+}
+```
